@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+          <h2>Random User</h2>
+        </div>
+        <form class="form" id="form">
+          <div class="form-control">
+              <label>Gender</label>
+              <select name="gender" id="gender" required>
+                <option  disabled='disabled' selected>Choose</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+              </select>
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+              <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label>User Count</label>
+                <input type="text" name="" placeholder="User Count" id="usercount" required>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+              </div>
+          <button>Submit</button>
+        </form>
+    </div>
+<script src="js/new.js"></script>
+</body>
+</html>
